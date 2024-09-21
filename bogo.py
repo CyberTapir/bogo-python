@@ -23,7 +23,4 @@ def shuffle(a):
         a[i], a[r] = a[r], a[i]
 a = [3, 9, 2, 8, 4, 1, 6, 5, 7, 10]
 bogoSort(a)
-# print("Sorted array :")
-# for i in range(len(a)):
-#     print("%d" % a[i], end=" ")
 print(count)
